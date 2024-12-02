@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name:
+            <input type="text" id="name" required placeholder="your name"> </label>
+            <br/>
+        <label for="age">Age:
+            <input type="number" id="age" required placeholder="your age"> </label>
+        </label>
+        <br/>
+        <label for="grade">Grade:
+            <input type="text" id="grade" placeholder="write grade" required>
+        </label>
+        <label for="image">Profile Picture:
+            <input type="file" id="image" required>
+        </label>
+        <br/>
+        <button type="button" id="submitBtn">
+            Submit
+        </button>
+    </form>
+
+    <div id="addData">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
